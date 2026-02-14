@@ -1,5 +1,7 @@
 # Security Policy
 
+At **Think About Algorithms**, we take security concerns seriously. This policy explains how to report vulnerabilities and how we handle security-related disclosures.
+
 ## 🛡 Supported Projects
 
 This security policy applies to all repositories under the **Think About Algorithms** organization unless a repository defines its own `SECURITY.md`.
