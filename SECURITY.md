@@ -1,106 +1,77 @@
 # Security Policy
 
-At **Think About Algorithms**, we take security concerns seriously. This policy explains how to report vulnerabilities and how we handle security-related disclosures.
+At **Think About Algorithms**, we take security concerns seriously and are committed to maintaining a safe, trustworthy, and responsible open-source environment. Although the organization primarily publishes educational algorithm implementations rather than production software, we recognize that developers, students, and organizations may still rely on these repositories for learning, experimentation, or integration. For this reason, all security-related concerns are treated with care, professionalism, and timely attention.
 
-## 🛡 Supported Projects
-
-This security policy applies to all repositories under the **Think About Algorithms** organization unless a repository defines its own `SECURITY.md`.
-
-Our repositories primarily contain educational implementations of algorithms across multiple programming languages. While these projects are not production services, we still take security-related concerns seriously.
+This policy explains which projects are covered, what qualifies as a security issue, how to report vulnerabilities responsibly, and how disclosures are handled by maintainers.
 
 ---
 
-## 🔎 What to Report
+## Supported Projects
 
-Please report:
+This security policy applies to all repositories maintained under the **Think About Algorithms** organization unless a specific repository defines its own `SECURITY.md` with alternative instructions.
 
-- Security vulnerabilities in algorithm implementations
-- Logic flaws that may cause unsafe behavior
-- Dependency vulnerabilities (if applicable)
-- Malicious code injections
-- Unsafe use of language features (e.g., buffer overflows, unsafe memory handling, etc.)
-- Any issue that could negatively impact users cloning or using the repository
-
-If you are unsure whether something qualifies as a security issue, report it anyway.
+Repositories within the organization primarily contain reference implementations of algorithms across multiple programming languages. While these implementations are educational in nature and not intended for direct production deployment, vulnerabilities or unsafe patterns in educational code can still propagate into real-world usage. As such, reported security concerns are reviewed and addressed with the same diligence expected in professional software projects.
 
 ---
 
-## 🚫 What Not to Report
+## What to Report
 
-The following are generally **not** considered security vulnerabilities:
+We encourage responsible reporting of any issue that may pose a security risk to users who read, clone, study, adapt, or execute code from Think About Algorithms repositories.
 
-- Incorrect algorithm outputs (unless exploitable)
-- Performance issues
-- Style or formatting problems
-- Feature requests
-- Educational improvements
+This includes, but is not limited to, vulnerabilities in algorithm implementations, logic flaws that could cause unsafe or undefined behavior, dependency-related vulnerabilities where applicable, malicious or unauthorized code injection, unsafe or dangerous use of language features (such as buffer overflows, unsafe memory access, unchecked pointer arithmetic, or insecure input handling), and any condition that could negatively affect users interacting with the repository content.
 
-These should be opened as regular issues instead.
+If there is uncertainty about whether an issue qualifies as a security concern, it is always appropriate to report it. Maintainers will evaluate the report and determine classification.
 
 ---
 
-## 📩 How to Report a Vulnerability
+## What Not to Report
 
-Please **do not open a public issue** for security vulnerabilities.
+Certain issues are generally outside the scope of security reporting and should instead be submitted as standard GitHub issues. These include incorrect algorithm outputs that do not create exploitable conditions, performance limitations, formatting or stylistic concerns, feature or algorithm requests, and general educational or documentation improvements.
 
-Instead:
-
-1. Open a **private security advisory** via GitHub (if enabled), or  
-2. Contact the maintainers directly via the organization contact email (if provided), or  
-3. If no private channel is available, clearly mark the issue title with:  
-   `SECURITY: <short description>`  
-
-Include the following details:
-
-- Repository name  
-- A clear description of the vulnerability  
-- Steps to reproduce  
-- Proof of concept (if applicable)  
-- Potential impact  
-- Suggested fix (optional but appreciated)
-
-Providing detailed information helps us resolve issues faster.
+Keeping non-security matters out of the security channel helps ensure that genuine vulnerabilities receive timely attention and appropriate handling.
 
 ---
 
-## ⏱ Response Timeline
+## How to Report a Vulnerability
 
-We aim to:
+Security vulnerabilities should never be disclosed publicly before maintainers have had an opportunity to investigate and remediate the issue. Public disclosure prior to a fix may expose users to unnecessary risk or enable misuse.
 
-- Acknowledge the report within **72 hours**
-- Provide an update within **7 days**
-- Release a fix as soon as reasonably possible
+The preferred reporting method is to open a private security advisory through GitHub, if the feature is enabled for the repository. If a private advisory channel is not available, reporters should contact maintainers directly using the organization’s published security or contact email address, where provided. As a last resort, if no private channel exists, a public issue may be opened only if it is clearly marked in the title with the prefix `SECURITY:` followed by a brief description, and sensitive technical details should be minimized until maintainers respond.
 
-Response times may vary depending on complexity and maintainer availability.
+A high-quality vulnerability report should include the affected repository name, a clear description of the issue, steps required to reproduce the problem, a proof of concept if applicable, an explanation of potential impact, and—if available—a suggested mitigation or fix. Detailed reports significantly accelerate investigation and resolution.
 
 ---
 
-## 🔐 Responsible Disclosure
+## Response Timeline
 
-We kindly ask that you:
+Think About Algorithms is maintained by volunteers; however, security reports are prioritized appropriately. Maintainers aim to acknowledge receipt of a valid vulnerability report within seventy-two hours, provide a status update within seven days, and prepare and release a fix as soon as reasonably possible given the complexity of the issue and contributor availability.
 
-- Do not publicly disclose the vulnerability before it is resolved
-- Allow us reasonable time to investigate and fix the issue
-- Avoid exploiting the vulnerability beyond proof-of-concept testing
-
-We appreciate responsible disclosure and ethical reporting.
+Timelines may vary depending on technical scope, cross-language implications, and maintainer capacity, but transparent communication is maintained throughout the process whenever feasible.
 
 ---
 
-## 🙌 Recognition
+## Responsible Disclosure
 
-Contributors who responsibly disclose valid security issues may be acknowledged in release notes or documentation (unless anonymity is requested).
+We request that reporters follow responsible disclosure practices to protect users and the integrity of the project. This includes refraining from public disclosure of the vulnerability until a fix or mitigation is available, allowing maintainers reasonable time to investigate and remediate the issue, and avoiding exploitation beyond what is strictly necessary to demonstrate proof of concept.
 
----
-
-## 📌 Scope
-
-This policy applies only to repositories owned by the **Think About Algorithms** organization.
-
-It does not apply to third-party forks, external dependencies, or unofficial mirrors.
+Responsible disclosure enables coordinated fixes and prevents accidental harm or misuse. We deeply appreciate ethical reporting conducted in good faith.
 
 ---
 
-Security and trust are important—even in educational repositories.
+## Recognition
 
-Thank you for helping us maintain a safe and professional open-source environment.
+Individuals who responsibly disclose valid and impactful security issues may be acknowledged in release notes, repository documentation, or project communications as a token of appreciation for strengthening the project’s safety and reliability. Recognition is entirely optional, and anonymity will always be respected if requested by the reporter.
+
+---
+
+## Scope
+
+This policy applies exclusively to repositories owned and maintained by the **Think About Algorithms** organization. It does not extend to third-party forks, external dependencies, downstream adaptations, or unofficial mirrors of the repositories.
+
+Issues originating from external projects should be reported to their respective maintainers according to their own security policies.
+
+---
+
+Security and trust are essential—even in educational software.
+
+Thank you for helping maintain a safe, responsible, and professional open-source ecosystem within Think About Algorithms.
